@@ -39,6 +39,13 @@ SDN-DDoS-Detection/
 
 ---
 
+## 🖥️ Preview
+### Home Page  
+![App Preview](Preview-Images/preview_1.png)  
+
+### Detection Results  
+![Results Preview](Preview-Images/preview_2.png) 
+
 ## 🔧 Installation & Setup
 ### **1️⃣ Clone the Repository**
 ```bash

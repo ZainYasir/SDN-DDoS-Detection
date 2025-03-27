@@ -24,8 +24,12 @@ def predict():
     file = request.files.get("file")
     if not file:
         return jsonify({"error": "No file provided"}), 400
+      
+   
     
-    # Load and preprocess data
+    print(f"✅ Received file: {file.filename}") 
+    
+    
     df = pd.read_csv(file)
 
     # Convert IP addresses to numeric values
